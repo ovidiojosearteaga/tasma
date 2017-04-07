@@ -8,12 +8,35 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+
+<nav>
+	<div class="nav-wrapper green row">
+		<div class="col s12">
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li>
+					<a href="#" class="">Home</a>
+				</li>
+				<li>
+					<a href="#" class="">My Account</a>
+				</li>
+				<li>
+					<a href="#" class="">Loggin</a>
+				</li>
+				<li>
+					<a href="#" class="">Sign up</a>
+				</li>
+			</ul>
+		</div>
+	</div>	
+</nav>
+
 	<div class="container">
+
 		<div class="row">
 			<div id="logo" class="col s12">
 				<hgroup>
-					<h1>TASMA</h1>
-					<h2>Task Manager, for productive people.</h2>
+					<h1 class="green-text center-align">TASMA</h1>
+					<h2 class="center-align">Task Manager, for productive people.</h2>
 				</hgroup>
 			</div>
 		</div>
@@ -40,10 +63,138 @@
 
 					<div class="card-content">
 						<div id="active">
-							<p>Lista de elementos activos.</p>
+							<table class="bordered striped responsive-table">
+								<thead>
+									<tr>
+										<th></th>
+										<th>Task Name</th>
+										<th>Priority</th>
+										<th>Create Date</th>
+										<th>Expiration Date</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<a href="#" class="green-text text-lighten-1">
+											<i class="material-icons">assignment_turned_in</i>
+											</a>
+										</td>
+										<td>Name example one</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+										<td>
+											<a href="#" class="red-text text-lighten-4">
+											<i class="material-icons center">delete</i>
+											</a>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<a href="#" class="green-text text-lighten-1">
+											<i class="material-icons">assignment_turned_in</i>
+											</a>
+										</td>
+										<td>Name example two</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+										<td>
+											<a href="#" class="red-text text-lighten-4">
+											<i class="material-icons center">delete</i>
+											</a>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<a href="#" class="green-text text-lighten-1">
+											<i class="material-icons">assignment_turned_in</i>
+											</a>
+										</td>
+										<td>Name example three</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+										<td>
+											<a href="#" class="red-text text-lighten-4">
+											<i class="material-icons center">delete</i>
+											</a>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<a href="#" class="green-text text-lighten-1">
+											<i class="material-icons">assignment_turned_in</i>
+											</a>
+										</td>
+										<td>Name example four</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+										<td>
+											<a href="#" class="red-text text-lighten-4">
+											<i class="material-icons center">delete</i>
+											</a>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
 						</div>
 						<div id="not-active">
-							<p>Lista de elementos no activos.</p>
+							<table class="bordered striped responsive-table">
+								<thead>
+									<tr>
+										<th>Task Name</th>
+										<th>Done / Not Done</th>
+										<th>Priority</th>
+										<th>Create Date</th>
+										<th>Date of realization</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Name example one</td>
+										<td class="green-text"><i class="material-icons left-align">thumb_up</i>
+										</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+									</tr>
+
+									<tr>
+										<td>Name example two</td>
+										<td class="green-text"><i class="material-icons left-align">thumb_up</i>
+										</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+									</tr>
+
+									<tr>
+										<td>Name example three</td>
+										<td class="red-text text-lighten-4"><i class="material-icons left-align">thumb_down</i>
+										</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+									</tr>
+
+									<tr>
+										<td>Name example four</td>
+										<td class="green-text"><i class="material-icons left-align">thumb_up</i>
+										</td>
+										<td>Medium</td>
+										<td>07 April, 2017</td>
+										<td>07 April, 2017</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>

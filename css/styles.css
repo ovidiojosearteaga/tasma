@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Serif');
+
 h1{
 	font-size: 4rem;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 h2{
-	font-size: 3rem;
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
 }
